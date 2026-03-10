@@ -1,4 +1,4 @@
-/* Body */
+            /* Body */
 body {
     font-family: 'Arial', sans-serif;
     background-color: rgb(245, 245, 245);
@@ -7,4 +7,68 @@ body {
     justify-content: center;
     align-items: center;
 }
-/* Header */
+            /* Header */
+header {
+    background-color: rgb(23, 171, 179);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 100%;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem 6rem ;
+}
+    /*Image*/
+img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    border: 0.5rem solid #fff;
+}
+        /*Header - text*/
+.header-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+    /*Title*/
+.title-name-job {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    }
+    p {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+}
+    /*Adress*/
+address {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+
+    p {
+    margin: 0;
+    }
+    .col-1-address, .col-2-address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    }
+}
+
+
