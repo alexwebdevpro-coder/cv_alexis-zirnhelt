@@ -2,7 +2,9 @@
 body {
     font-family: "Raleway", Arial, sans-serif;
     background-color: rgb(245, 245, 245);
-    margin: 0rem 9.25rem;
+    width: 1160px;
+    max-width: 100%;
+    margin: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,8 +24,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding-left: 7rem;
-    padding-right: 17rem;
+    padding-left: 3rem;
+    padding-right: 8rem;
 }
     /*Image*/
 img {
