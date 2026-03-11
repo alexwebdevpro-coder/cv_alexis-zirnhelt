@@ -22,7 +22,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 0rem 6rem ;
+    padding-left: 7rem;
+    padding-right: 17rem;
 }
     /*Image*/
 img {
