@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+}
+h2 {
+    color: rgb(23, 171, 179);
+}
+.skills-languages-qualities-hobbies {
+    width: 30%;
+    background-color: #E0E0E0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.skills-languages-qualities-hobbies ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.profile-formations-stages-experiences {
+    background-color: #fff;
+    padding: 2rem;
+    width: 70%;
+}
+.formation-item, .stage-item, .experience-item {
+    padding: 0rem 2rem;
+    border-left: 0.35rem solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+}
+
+.formation-item:hover, .stage-item:hover, .experience-item:hover {
+    background-color: #E3E3E3;
+    border-left-color: rgb(23, 171, 179);
+}
+.business-location {
+    font-style: italic;
+}
+.date-range {
+    color: rgb(23, 171, 179);
+}
