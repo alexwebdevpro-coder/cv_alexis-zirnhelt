@@ -30,6 +30,7 @@ CV_Alexis-ZIRNHELT/
 
 ## Liens
 
+- Site : [cvalexis-zirnhelt.vercel.app](https://cvalexis-zirnhelt.vercel.app/)
 - Portfolio : [lexart-studio.fr](http://lexart-studio.fr)
 - GitHub : [github.com/alexwebdevpro-coder](https://github.com/alexwebdevpro-coder)
 
