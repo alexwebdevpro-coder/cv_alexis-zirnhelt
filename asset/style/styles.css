@@ -62,17 +62,14 @@ img {
 address {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    gap: 1rem;
 }
 address p {
     margin: 0;
 }
-address .col-1-address,
 address .col-2-address {
     display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 1rem;
 }
 
             /*Footer*/
