@@ -113,4 +113,16 @@ footer {
 .social-network i {
     font-size: 2rem;
 }
+.social-network a {
+    color: inherit;
+    text-decoration: none;
+}
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+}
+.portfolio-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
