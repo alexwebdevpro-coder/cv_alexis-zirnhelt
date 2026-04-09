@@ -45,3 +45,34 @@ h2 {
 .date-range {
     color: rgb(23, 171, 179);
 }
+
+/* Tablet */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    .skills-languages-qualities-hobbies {
+        width: 100%;
+    }
+    .profile-formations-stages-experiences {
+        width: 100%;
+    }
+    .formation-item, .stage-item, .experience-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .skills-languages-qualities-hobbies {
+        padding: 1rem;
+    }
+    .profile-formations-stages-experiences {
+        padding: 1rem;
+    }
+    .formation-item, .stage-item, .experience-item {
+        padding: 0 1rem;
+    }
+}
